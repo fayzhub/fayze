@@ -1,0 +1,111 @@
+header{
+   display: flex;
+   background-color: rgb(84, 84, 84);
+   height: 200px;
+margin-bottom: 10px;
+}
+ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    font-size: 25px;
+}
+header img{
+    padding-left: 30px;
+    padding-top: 25px;
+    padding-right: 50px;
+}
+
+main{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.left{
+    float: left;
+   background-color: rgb(33,31,32);
+   background: radial-gradient(circle, rgba(33,31,32,1) 51%, rgba(1,0,0,1) 68%);
+   height: 900px;
+   width: 50%;
+   text-align: justify;
+   padding-left: 5px;
+}
+
+.right{
+float: right;
+ width: 50%;
+ background: rgb(12,88,131);
+background: linear-gradient(90deg, rgba(12,88,131,1) 51%, rgba(11,146,149,1) 68%);
+height: 900px;
+width: 50%;
+text-align: justify;
+padding-left: 5px;
+ }
+ 
+ .left p{
+    color: aqua;
+    font-size: 22px;
+ }
+
+ header a:hover{
+ color: rgb(0, 255, 255);
+ }
+ 
+ footer{
+   background: repeating-linear-gradient( rgb(97, 98, 97),rgb(0, 0, 0),rgb(255, 255, 255));
+    height: 450px;
+ }
+
+ .top{
+   display: flex;
+ }
+ .bottom ul{
+   display: flex;
+   justify-content: center;
+  align-items: center;
+ }
+
+ footer p{
+    padding-left: 350px;
+    padding-top: 30px;
+    font-size: 20px;
+    gap: 10px;
+   
+ }
+
+ .right p{
+    color: aqua;
+    font-size: 22px;
+ }
+
+ main iframe{
+   padding-left: 235px;
+ }
+
+.for-img img{
+  size: 40px;
+ 
+}
+
+footer img{
+   width: 75px;
+   padding-top: 50px;
+}
+
+.scale1:hover{
+   scale: 1.4;
+}
+ 
+.scale2:hover{
+   scale: 1.4;
+}
+ 
+.scale3:hover{
+   scale: 1.4;
+}
+
+.top{
+   border-bottom: solid 1px rgb(255, 255, 255);
+}
